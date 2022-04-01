@@ -1,0 +1,34 @@
+.apartment{
+    position: relative;
+    padding: 4%;
+}
+.apartment .svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.apartment .svgbot{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.apartment .colheader{
+    color: var(--green-500);
+    font-size: 26px;
+}
+.apartment.coltxt-1,.coltxt-3{
+    padding: 10px 0;
+    font-size: 15px;
+}
+.apartment-list{
+    margin: 0 10%;
+}
+.apartment-list li{
+    margin-bottom: 10px;
+}
+.apartment-list-txt{
+    margin-left: 20px;
+    padding-top: 20px;
+}

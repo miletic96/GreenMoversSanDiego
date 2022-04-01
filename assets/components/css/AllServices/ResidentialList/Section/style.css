@@ -1,0 +1,8 @@
+.residentiallist{
+    padding: 5%;
+    padding-bottom: 2%;
+}
+.residentiallist .listtxt::marker{
+    font-size: 28px;
+    color: var(--green-500);   
+   }

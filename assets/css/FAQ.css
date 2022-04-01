@@ -1,0 +1,21 @@
+.home-header {
+    height: 80vh;
+    background-color: var(--white-500);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+.home-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/assets/images/homeheader.webp');
+    background-position: 0px 0px;
+  
+    background-repeat: no-repeat;
+   
+    z-index: -1;
+}

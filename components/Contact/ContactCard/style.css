@@ -1,0 +1,24 @@
+.contactcard{
+   margin: auto;
+}
+
+.contactcard svg{
+    margin: auto;
+    padding-bottom: 20px;
+}
+.contactcard h4{
+    text-align: center;
+    color: var(--green-500);
+    padding-bottom: 10px;
+}
+.contactcard .contact-link{
+    text-align: center;
+    margin: auto;
+}
+.contactcard .contact-link a{
+    color: var(--black-500);
+}
+.contactcard .contact-link a:hover{
+    color: var(--green-500);
+    transition: ease-in-out 0.25s;
+}

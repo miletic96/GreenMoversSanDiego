@@ -1,0 +1,12 @@
+.headerandtxt{
+    padding: 5%;
+   
+}
+.headerandtxt .reusableheader{
+    text-align: center;
+    color: var(--green-500);
+    padding: 20px;
+}
+.headerandtxt .reusabletxt1 {
+    text-align: center;
+}

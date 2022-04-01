@@ -1,0 +1,29 @@
+.home-statistics {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.home-statistics .statistic-item {
+    margin-bottom: 2rem;
+}
+
+.home-statistics .statistic-item-value {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-b);
+}
+
+.home-statistics .statistic-item-title {
+    font-size: var(--fs-m);
+    font-weight: var(--fw-l);
+}
+
+.home-statistics .statistic-item-img {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+    .home-statistics .statistic-item {
+        margin-bottom: 0;
+    }
+}

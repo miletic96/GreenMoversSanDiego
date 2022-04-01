@@ -1,0 +1,99 @@
+.conuter-right{
+    padding-top: 12%;
+
+}
+
+
+.circle-skill-1,.circle-skill-2,.circle-skill-3,.circle-skill-4{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.circle-outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+   box-shadow: 6px 6px 10px -1px rgb(0, 0,0, 0.15),
+   -6px 06px 10px 01px rgb(255, 255, 255,0.7);
+    padding: 20px;
+}
+.circle-inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgb(0, 0,0, 0.2),
+    inset -6px 06px 10px 01px rgb(255, 255, 255,0.7),
+    0.5px 0.5px 0 rgba(0,0,0,0.15),
+    0 12px 10px -10px rgb(0,0,0,00.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#number1,#number2,#number3,#number4{
+    font-weight: 600;
+    color: var(--white-500);
+}
+.circle-skill-1 circle{
+    fill: none;
+    stroke: var(--white-500);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim1 2s linear forwards;
+}
+.circle-skill-2 circle{
+    fill: none;
+    stroke: var(--white-500);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+}
+.circle-skill-3 circle{
+    fill: none;
+    stroke: var(--white-500);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+}
+.circle-skill-4 circle{
+    fill: none;
+    stroke: var(--white-500);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim4 2s linear forwards;
+}
+.conuter-right svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+}
+.circle-outer P{
+    color: var(--white-500);
+    padding-top: 30px;
+    font-size: 14px;
+}
+@keyframes anim1{
+    100%{
+        stroke-dashoffset: 65;
+    }
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset:0;
+    }
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes anim4{
+    100%{
+        stroke-dashoffset: 400;
+    }
+}

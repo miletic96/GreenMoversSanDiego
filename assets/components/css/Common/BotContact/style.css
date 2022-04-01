@@ -1,0 +1,16 @@
+.botcontact{
+  padding:0 15%;
+  text-align: center;
+  
+}
+
+.botcontact p{
+    color: var(--green-500);
+}
+.botcontact a{
+    color: var(--green-300);
+    font-weight: 900;
+}
+.botcontact a:hover{
+    color: var(--green-500);
+}

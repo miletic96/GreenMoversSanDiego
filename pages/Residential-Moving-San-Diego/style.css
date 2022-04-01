@@ -1,0 +1,40 @@
+.residential{
+    position: relative;
+    padding: 4% 0;
+}
+.residential .svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.residential .svgbot{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.residential .colheader{
+    color: var(--green-500);
+    font-size: 26px;
+}
+.residential .coltxt-1{
+    padding: 10px 0;
+}
+.residential .colsubtitle{
+    color: var(--green-500);
+    padding-bottom: 10px;
+}
+.residential .imgcol img{
+    margin: auto;
+}
+ .headerandtxt{
+    padding: 2% !important;
+   
+}
+.residential-bot{
+  padding-top: 5%;
+}
+.residential-bot .coltxt-3{
+    color: var(--green-500);
+    font-weight: bold;
+}

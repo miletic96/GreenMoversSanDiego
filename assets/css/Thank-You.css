@@ -1,0 +1,9 @@
+.header-btn{
+    display: none !important;
+}
+.thanks{
+    margin: 5%;
+}
+.thanks a{
+    color: var(--green-500);
+}

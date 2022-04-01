@@ -1,0 +1,11 @@
+#location-accordion .accordion-button {
+    color: var(--white-500);
+    justify-content: center;
+    font-weight: var(--fw-sb);
+    border-radius: 0 !important;
+    background-color: var(--black-300);
+}
+
+#location-accordion .accordion-body {
+    padding: 0;
+}

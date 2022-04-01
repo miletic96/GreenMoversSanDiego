@@ -1,0 +1,15 @@
+- Implement VS Code portable mode with all configuration [ready]
+- Multiple keyphrases: Increase your SEO reach - ovo po defaultu postoji 1 keywordphrase(proveriti kako radi)
+- Goolge search preview
+- Google structured data
+- Rich results(google)
+
+- svg peglanje
+    - improve Common-Svg komponente(baca error-e u devu, potrebno mozda drugacije renderovanje??) [ready]
+- dodati assets folder u watch [done][check]
+- improve docs
+    - opisati koriscenje asseta [done]
+    - opisati rad sa komponentama -> PROPS [done]
+    - opisati rad sa komponentama -> CONTENT [done]
+- dodati minifikaciju css-a [ready]
+- napraviti fix za prazne foldere [ready]

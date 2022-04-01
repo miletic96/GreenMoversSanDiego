@@ -1,0 +1,55 @@
+.accordion-button{
+    width: 100%;
+    background-color: #4E80DE;
+    padding: 20px 0;
+}
+.accordion-header{
+    margin-bottom: 0;
+}
+.accordion-button p{
+    display: inline-block;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+}
+.accordion-button svg{
+    margin: auto;
+   
+}
+.accordion-button:focus {
+    outline: none!important;
+    outline: none!important;
+}
+.footer-bot{
+    background-color:#295AB7 ;
+}
+.footer-bot ul{
+    columns: 2;
+    list-style: none;
+    
+    padding: 0;
+}
+.footer-bot li{
+    padding: 10px 0;
+}
+.footer-bot a{
+    color: white;
+}
+.footer-bot p{
+    color: white;
+}
+.footer-bot h3{
+    color: white;
+    padding: 20px 0;
+}
+.info{
+   display: flex;
+   padding-top: 20px;
+}
+.info p{
+    padding-left: 20px;
+}
+
+.footer-right{
+    padding: 0px;
+}

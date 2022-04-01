@@ -1,0 +1,39 @@
+.storage-in-and-out{
+    position: relative;
+    padding: 4%;
+}
+.storage-in-and-out .imgcol img{
+    margin: auto;
+}
+.storage-in-and-out .svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.storage-in-and-out .svgbot{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    bottom: 0;
+}
+.storage-in-and-out ul{
+    margin:0 10%;
+}
+.storage-in-and-out li{
+    margin-bottom: 20px;
+}
+.storage-in-and-out .colheader{
+    color: var(--green-500);
+    font-size: 26px;
+}
+.storage-in-and-out.coltxt-1{
+    padding: 10px 0;
+}
+.storage-in-and-out .colsubtitle{
+    color: var(--green-500);
+    padding-bottom: 10px;
+}
+.storage-bot{
+    padding: 5%;
+}

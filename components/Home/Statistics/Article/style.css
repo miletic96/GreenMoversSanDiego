@@ -1,0 +1,25 @@
+.statistic-item {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.statistic-item svg {
+    margin: auto;
+    height: 41px;
+}
+
+.statistic-item-value {
+    font-size: var(--fs-4xl);
+    font-weight: var(--fw-b);
+}
+
+.statistic-item-title {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-l);
+}
+
+@media (min-width: 992px) {
+    .statistic-item {
+        margin-bottom: 0;
+    }
+}

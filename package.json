@@ -1,0 +1,43 @@
+{
+    "name": "lsf-bost",
+    "version": "1.0.0",
+    "description": "*Simple tools taht boosts productivity and ease larning development!*",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "fmt-tasks": "swtf-fmt tasks.swtf > tasks2.swtf && mv tasks2.swtf tasks.swtf",
+        "watch-components": "nodemon -w componentss.json bin/app.js -- -w",
+        "watch-pages": "node bin/app.js -wp",
+        "watch-web": "browser-sync start -s --port 3000 -w -f 'components.json' 'pages' 'assets'",
+        "dev": "concurrently \"npm:watch-*\"",
+        "seo-reports": "node bin/app.js --seo-reports",
+        "build": "node bin/app.js --build",
+        "prod": "node bin/app.js --build --seo-reports",
+        "cli": "node bin/app.js",
+        "init-ide": "code --install-extension ritwickdey.liveserver --install-extension esbenp.prettier-vscode",
+        "lint": "prettier --write \"components/**/*.html\" \"pages/**/*.html\"",
+        "lint:check": "prettier --check \"components/**/*.html\" \"pages/**/*.html\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.27.7",
+        "commander": "^9.0.0",
+        "concurrently": "^7.0.0",
+        "less": "^4.1.2",
+        "lighthouse": "^9.4.0",
+        "local-web-server": "^5.1.1",
+        "nodemon": "^2.0.15",
+        "prettier": "2.5.1",
+        "puppeteer": "^13.3.2",
+        "sass": "^1.49.7",
+        "swtf-fmt": "^1.0.3",
+        "watch": "^1.0.2"
+    },
+    "dependencies": {
+        "chrome-launcher": "^0.15.0",
+        "mustache": "^4.2.0"
+    },
+    "bin": "bin/app.js"
+}

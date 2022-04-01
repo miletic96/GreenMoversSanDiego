@@ -1,0 +1,28 @@
+.home-free-quote {
+    gap: 1rem;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--red-500);
+}
+
+.home-free-quote h3 {
+    color: var(--white-500);
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-l);
+}
+
+.home-free-quote h3 span {
+    font-weight: var(--fw-b);
+}
+.form-wizard{
+    background-color: var(--green-500)!important;
+}
+@media (min-width: 768px) {
+    .home-free-quote {
+        gap: 20rem;
+        flex-direction: row;
+    }
+}

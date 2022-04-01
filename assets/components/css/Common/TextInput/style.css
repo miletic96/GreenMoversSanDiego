@@ -1,0 +1,15 @@
+.common-textInput-group input {
+    height: 45px;
+    padding: 0.5rem;
+    font-size: var(--fs-m);
+    color: var(--white-500);
+    font-weight: var(--fw-r);
+    border-radius: var(--br-s);
+    border: 0.5px solid var(--white-500);
+}
+
+.common-textInput-group input::placeholder {
+    font-size: var(--fs-s);
+    color: var(--white-500);
+    font-weight: var(--fw-l);
+}

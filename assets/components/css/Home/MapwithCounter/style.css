@@ -1,0 +1,37 @@
+.mapwithcounter{
+  background-image: url(/assets//images/white-world-map.webp);
+ height: 1000px;
+  background-size: cover;
+  background-position: 80% 50%;
+  margin: 5% 0;
+}
+
+.mapwithcounter .counter-left{
+    padding-top: 30%;
+}
+.mapwithcounter .counter-left h2{
+color: var(--white-500);
+font-weight: 900;
+
+}
+.mapwithcounter .counter-left .conter-main-txt{
+    color: var(--white-500);
+    padding: 20px 0;
+    font-size: 20px;
+    
+}
+.mapwithcounter .counter-left .numbers{
+    font-size: 25px;
+    color: var(--white-500);
+    font-weight: 900;
+   
+}
+.mapwithcounter .counter-left .numbers span{
+    font-size: 25px;
+    color: var(--white-500);
+}
+.mapwithcounter .counter-left .conter-txt{
+    font-size: 20px;
+    color: var(--white-500);
+    margin-bottom: 20px;
+}

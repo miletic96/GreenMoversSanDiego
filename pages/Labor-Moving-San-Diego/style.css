@@ -1,0 +1,52 @@
+.labor{
+    position: relative;
+    padding: 4%;
+}
+.labor .imgcol img{
+    margin: auto;
+}
+.labor .svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.labor .svgbot{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    bottom: 0;
+}
+.labor .colheader{
+    color: var(--green-500);
+    font-size: 26px;
+    padding-top: 30px;
+}
+.labor .coltxt-1, .coltxt-3, .coltxt-2{
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.labor .colsubtitle{
+    color: var(--green-500);
+}
+.labor .coltxt-4{
+    color: var(--green-500);
+    font-weight: bold;
+}
+.labor-bot{
+    padding: 8% 0;
+}
+.labor-bot .laborcol{
+    padding-top: 20px;
+}
+.labor-bot .laborheader, .laborsubtitle , .labor-miniheader{
+    color: var(--green-500);
+}
+
+.labor-bot .labor-txt1, .labor-txt2{
+    padding: 10px 0;
+}
+.labor .headerandtxt {
+    padding: 0;
+}

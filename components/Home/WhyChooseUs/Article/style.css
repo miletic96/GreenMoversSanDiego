@@ -1,0 +1,33 @@
+.why-choose-us-article {
+    gap: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.why-choose-us-article-info {
+    width: 100%;
+}
+
+
+.why-choose-us-article-info h5 {
+    margin-bottom: 1rem;
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-b);
+}
+
+.why-choose-us-article-info svg {
+    height: 80px;
+}
+
+.why-choose-us-article-info p {
+    font-weight: var(--fs-m);
+    font-weight: var(--fw-l);
+}
+
+@media (min-width: 992px) {
+    .why-choose-us-article {
+        margin-bottom: 0;
+    }
+}

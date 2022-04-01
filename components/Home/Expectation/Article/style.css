@@ -1,0 +1,30 @@
+.expectation-article {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+    .expectation-article {
+        margin-bottom: 0;
+    }
+}
+
+.expectation-article .expectation-number {
+    color: var(--red-500);
+    font-size: var(--fs-6xl);
+    font-weight: var(--fw-b);
+}
+
+.expectation-article .expectation-title {
+    margin-bottom: 2rem;
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-l);
+}
+
+.expectation-article .expectation-title span {
+    font-weight: var(--fw-b);
+}
+
+.expectation-article .expectation-description {
+    font-size: var(--fs-s);
+    font-weight: var(--fw-l);
+}

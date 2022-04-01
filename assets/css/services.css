@@ -1,0 +1,18 @@
+.services-page{
+    position: relative;
+    padding: 5% 0;
+}
+
+.svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.svgbot{
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+}

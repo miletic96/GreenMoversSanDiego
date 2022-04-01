@@ -1,0 +1,39 @@
+.commercial{
+    position: relative;
+    padding: 4%;
+}
+.commercial .svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.commercial .svgbot{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.commercial .colheader{
+    color: var(--green-500);
+    font-size: 26px;
+}
+.commercial .coltxt-1,.coltxt-3{
+    padding: 10px 0;
+    font-size: 15px;
+}
+.commercial .colsubtitle{
+    color: var(--green-500);
+    padding-bottom: 10px;
+}
+.commercial .imgcol img{
+    margin: auto;
+}
+.commercial-bot{
+    padding: 4%;
+}
+.commercial-bot .imgcol img{
+    margin: 0;
+    }
+    .commercial-bot .colheader{
+        padding-top: 40px;
+    }

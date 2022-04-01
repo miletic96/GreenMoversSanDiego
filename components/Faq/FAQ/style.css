@@ -1,0 +1,63 @@
+
+.faq{
+    margin: 5% 0;
+}
+
+
+.faq span{
+    padding-right: 20px;
+}
+.accordion-header{
+    border: none;
+    margin-bottom: 5px;
+}
+.accordion-header p{
+    color: var(--green-500) !important;
+    font-weight: bold;
+}
+.accordion-button{
+    border-radius: var(--br-l) !important;
+    
+}
+.accordion-item{
+   margin-bottom: 10px;
+    border: 4px solid var(--green-500) !important;
+    border-radius: var(--br-l);
+
+
+}
+.accordion-button:focus{
+    background-color: var(--white-500) !important;
+    box-shadow: none;
+    color: var(--green-500);
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: var(--br-l) ;
+    border-top-right-radius: var(--br-l); 
+}
+.accordion-button::after {
+    background-image: url(/assets/images/down-arrow.svg) !important;
+  
+  
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+  
+    margin-left: auto !important;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+    color: none;
+    background-color: none;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-item:last-of-type {
+    border-bottom-right-radius: var(--br-l);
+    border-bottom-left-radius:  var(--br-l);
+}

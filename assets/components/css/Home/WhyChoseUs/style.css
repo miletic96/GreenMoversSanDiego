@@ -1,0 +1,14 @@
+.home-why-choose-us {
+    padding: 6rem 0;
+}
+
+.home-why-choose-us .why-choose-us-item {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.home-why-choose-us-item h5 {
+    font-weight: var(--fw-b);
+    font-size: var(--fs-m);
+    margin-bottom: 1rem;
+}

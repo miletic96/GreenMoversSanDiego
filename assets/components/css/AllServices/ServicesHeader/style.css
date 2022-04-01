@@ -1,0 +1,60 @@
+.servicesheader {
+    height: 100vh;
+    background-color: var(--white-500);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+
+}
+.servicesheader::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/assets/images/hands-cardboard-boxes-closeup.webp');
+    background-position: 30% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    z-index: -1;
+}
+.servicesheader h1 {
+    color: var(--white-500);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.servicesheader p{
+    color: var(--white-500);
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.servicesheader .header-btn{
+    background-color: var(--green-300);
+    color: var(--white-500);
+    padding: 20px 40px;
+    border-radius: var(--br-s);
+  
+}
+.servicesheader .header-btn:hover{
+background-color: var(--green-500);
+transition: ease-in-out 0.25s;
+}
+
+@media(max-width:992px){
+    .servicesheader h1 {
+        color: var(--white-500);
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        padding-top: 80px;
+        font-size: 30px;
+    }
+    .servicesheader p{
+        color: var(--white-500);
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,9 @@
+.footer-item-list{
+    display: flex;
+    margin: auto;
+}
+.footer-item-list svg{
+    height: 20px;
+    display: inline-block;
+    margin: auto;
+}

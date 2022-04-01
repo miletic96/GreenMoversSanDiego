@@ -1,0 +1,27 @@
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 50%;
+    height: 200px;
+    margin-right: 10px;
+
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  .carousel-cell img{
+      margin: auto;
+  }
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+  
+    line-height: 200px;
+    font-size: 80px;
+  
+  }
+  .flickity-viewport{
+      height: 300px !important;
+  }

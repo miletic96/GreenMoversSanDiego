@@ -1,0 +1,43 @@
+.packers-and-movers{
+    position: relative;
+    padding: 4%;
+}
+.packers-and-movers .imgcol img{
+    margin: auto;
+}
+.packers-and-movers .svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.packers-and-movers .svgbot{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    bottom: 0;
+}
+.packers-and-movers .colheader{
+    color: var(--green-500);
+    font-size: 26px;
+}
+.packers-and-movers .coltxt-1{
+    padding: 10px 0;
+}
+.packers-and-movers .colsubtitle{
+    color: var(--green-500);
+    padding-bottom: 10px;
+}
+.packers-bot{
+    padding: 5%;
+}
+.packers-bot .imgcol img{
+    margin: 0;
+}
+.packers-bot .txtcol .extra{
+    display: block !important;
+}
+.packers-and-movers .reusabletxt2{
+    text-align: center;
+    color: var(--green-500);
+}

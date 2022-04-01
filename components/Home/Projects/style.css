@@ -1,0 +1,24 @@
+.home-projects {
+    position: relative;
+    isolation: isolate;
+    padding: 6rem 0;
+    height: 500px;
+}
+
+.home-projects::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 140%;
+    left: -20%;
+    background-color: var(--gray-300);
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 50% 50%;
+    z-index: -1;
+}
+
+.home-projects h2 {
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,14 @@
+.common-info-box a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.common-info-box a:nth-child(1) {
+  margin-left: 0;
+}
+
+.common-info-box a:hover {
+  color: aliceblue;
+  text-decoration: underline;
+}

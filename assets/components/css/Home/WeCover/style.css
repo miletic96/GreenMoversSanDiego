@@ -1,0 +1,24 @@
+#we-cover-accordion {
+    background-color: var(--red-500);
+}
+
+#we-cover-accordion .accordion-button {
+    color: var(--white-500);
+    justify-content: center;
+    font-weight: var(--fw-sb);
+    border-radius: 0 !important;
+    background-color: var(--red-500);
+}
+
+#we-cover-accordion .accordion-body {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+#we-cover-accordion .accordion-body a {
+    margin: 0.25rem;
+    color: var(--gray-800);
+    font-size: var(--fs-s);
+    font-weight: var(--fw-l);
+    text-decoration: underline !important;
+}

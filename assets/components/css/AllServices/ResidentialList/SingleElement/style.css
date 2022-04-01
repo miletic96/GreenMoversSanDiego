@@ -1,0 +1,6 @@
+ .listtxt{
+    color: var(--green-500);
+}
+.listtxt::marker{
+    color: var(--green-500) !important;
+}

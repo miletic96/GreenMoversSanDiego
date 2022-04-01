@@ -1,0 +1,38 @@
+.home-expectation {
+    padding: 6rem 0;
+}
+
+.home-expectation h2 {
+    margin-bottom: 3rem;
+}
+
+.expectation-item {
+    margin-bottom: 2rem;
+}
+
+.home-expectation .expectation-number {
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-b);
+    color: var(--red-500);
+}
+
+.home-expectation .expectation-title {
+    font-size: var(--fs-m);
+    font-weight: var(--fw-l);
+    margin-bottom: 1rem;
+}
+
+.home-expectation .expectation-title span {
+    font-weight: var(--fw-b);
+}
+
+.home-expectation .expectation-description {
+    font-size: var(--fs-s);
+    font-weight: var(--fw-l);
+}
+
+@media (min-width: 992px) {
+    .expectation-item {
+        margin-bottom: 0;
+    }
+}

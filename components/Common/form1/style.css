@@ -1,0 +1,123 @@
+/* * FORMA */ 
+.form-title{
+    padding:10px 50px;
+}
+.my-form{
+    background: inherit;
+    position: relative;
+    z-index: 999;
+    padding: 10px;
+    
+}
+
+.my-form::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(2x);
+    background: inherit;
+}
+.form-select{
+    font-size: 14px;
+}
+.input-group input, .form-select{
+    border-top-right-radius: var(--br-l)!important;
+    border-bottom-right-radius: var(--br-l)!important;
+}
+.input-group span{
+    border-top-left-radius: var(--br-l)!important;
+    border-bottom-left-radius:var(--br-l) ;
+}
+.my-form input{
+    font-size: 12px;
+}
+.Get-quote {
+  margin-top: 3%;
+}
+
+
+
+.move-date{
+    z-index: 10;
+}
+
+.my-form input {
+  padding: 13px;
+}
+
+.my-form i {
+  color: var(--main-pink);
+}
+
+.form-dugme {
+  margin-top: 10%;
+}
+
+.form-btn {
+  display: block;
+  margin: auto;
+  width: 96%;
+  padding:10px 20px;
+  background-color: var(--yellow-500);
+  color: var(--main-white);
+  z-index: 9;
+  border-radius: var(--br-l);
+}
+
+.form-btn:hover {
+  background-color: var(--yellow-300);
+}
+
+.strelica {
+  color: var(--main-white)!important;
+}
+
+/* input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+   
+} */
+
+#datum input {
+    border: none;
+    box-sizing: border-box;
+    outline: 0;
+    padding: .75rem;
+    position: relative;
+    width: 100%;
+  
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    top: 0;
+    width: auto;
+}
+
+
+@media (max-width:1200px) {
+  .delatnost p {
+      display: block;
+      margin-left: 9%;
+      font-size: 14px;
+  }
+  .Get-quote h1 {
+      font-size: 50px;
+      font-weight: 900;
+      color: var(--main-black);
+      margin-bottom: 5%;
+  }
+}

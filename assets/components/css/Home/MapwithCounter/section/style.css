@@ -1,0 +1,15 @@
+.mapwithcounter{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets//images/white-world-map.webp);
+ height:100vh;
+  background-size: cover;
+  background-position: 80% 50%;
+  margin: 5% 0;
+  position: relative;
+}
+
+@media(max-width:992px){
+  .mapwithcounter{
+    height: 120vh;
+    margin: 10% 0;
+  }
+}

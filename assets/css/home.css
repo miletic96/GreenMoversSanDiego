@@ -1,0 +1,109 @@
+.header-btn{
+    display: none;
+}
+.home-card-section{
+    margin: 5%;
+}
+.services-btn a {
+    font: 22px Arial;
+    display: inline-block;
+    padding: 1em 2em;
+    text-align: center;
+    color: white;
+    background: green; /* default color */
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, var(--green-300) 50%, var(--green-500) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    border-radius: var(--br-s);
+}
+.services-btn {
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.services-btn:hover a{
+    background-position: left;
+}
+
+.home-card-section .svgtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.home-card-section .svgbot{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    bottom: 0;
+}
+.exp-cards h2{
+    text-align: center;
+    color: var(--green-500);
+    padding: 30px 0;
+}
+
+
+.flickity{
+    display: none;
+}
+
+
+.testemonials-h{
+    margin: 5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px){
+    .services-btn {
+        margin-top: 50px;
+        margin-left: 30%;
+    }
+    .exp-cards{
+        display: none;
+    }
+    .flickity{
+        display: block;
+    }
+}

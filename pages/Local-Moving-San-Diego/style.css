@@ -1,0 +1,43 @@
+.local-moving{
+  padding: 4%;
+    position: relative;
+}
+.local-moving .colheader{
+    color: var(--green-500);
+    padding-top: 20px;
+}
+.local-moving .coltxt-1{
+    padding: 10px 0;
+}
+.local-moving .colsubtitle{
+    color: var(--green-500);
+    padding-bottom: 10px;
+}
+.local-moving .svgtop{
+    position: absolute;
+    top: 90%;
+    right: 0;
+    z-index: -1;
+}
+.local-moving .svgbot{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.local-moving .reusabletxt2{
+    text-align: center;
+    padding: 20px;
+}
+.local-mid{
+    padding: 4% 0;
+}
+.local-mid .coltxt-3{
+    padding: 10px 0;
+}
+.local-mid .imgcol img{
+margin: auto;
+}
+.local-mid .colheader{
+    color: var(--green-500);
+    padding-top: 0px;
+}

@@ -1,0 +1,117 @@
+.home-header {
+    height: 100vh;
+    background-color: var(--white-500);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+.home-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/assets/images/homeheader.webp');
+    background-position: 0px 0px;
+  
+    background-repeat: no-repeat;
+   
+    z-index: -1;
+}
+.home-header h1 {
+    color: var(--white-500);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.home-header p{
+    color: var(--white-500);
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.home-header .header-btn{
+    background-color: var(--green-300);
+    color: var(--white-500);
+    padding: 20px 40px;
+    border-radius: var(--br-s);
+}
+.home-header .header-btn:hover{
+background-color: var(--green-500);
+transition: ease-in-out 0.25s;
+}
+.header-form-wrapper {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: var(--br-l);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--white-500);
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.header-form-wrapper h5 {
+    margin-bottom: 1.5rem;
+    color: var(--white-500);
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-b);
+}
+
+.header-form-wrapper button {
+    position: absolute;
+    bottom: -22.5px;
+    right: 2rem;
+}
+
+.header-form-wrapper input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--white-500);
+    opacity: 0.7;
+    padding-left: 10px;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red;
+}
+
+@media(max-width:992px){
+    .home-header h1 {
+        color: var(--white-500);
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        padding:10px 80px;
+        font-size: 40px;
+       
+    }
+    .home-header p{
+        color: var(--white-500);
+        font-size: 20px;
+        padding:10px 80px;
+      
+    }
+    
+}
+@media(max-width:992px){
+    .home-header h1 {
+        padding: 0 10px;
+    }
+    .home-header p {
+        padding: 10px;
+    }
+}

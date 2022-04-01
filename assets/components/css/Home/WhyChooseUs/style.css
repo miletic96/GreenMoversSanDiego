@@ -1,0 +1,22 @@
+.home-why-choose-us .why-choose-us-item {
+    gap: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-why-choose-us .why-choose-us-item h5 {
+    margin-bottom: 1rem;
+    font-size: var(--fs-ml);
+    font-weight: var(--fw-b);
+}
+
+.home-why-choose-us .why-choose-us-item p {
+    font-weight: var(--fw-l);
+}
+
+@media (min-width: 992px) {
+    .home-why-choose-us .why-choose-us-item {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,13 @@
+.testemonialscards{
+  background-color: var(--green-300);
+  padding: 70px 50px      ;
+  border-radius: var(--br-s);
+  position: relative;
+  margin-bottom: 30px;
+}
+.testemonialscards img{
+    position: absolute;
+    top: -15%;
+    right: 0;
+    height: 100px;
+}
